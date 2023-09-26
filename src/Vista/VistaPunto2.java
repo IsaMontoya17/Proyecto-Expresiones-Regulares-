@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 public class VistaPunto2 {
 
     public void Vista2() {
+        
         ArrayList<ArrayList<Integer>> arrayListOfArrayLists = new ArrayList<>();
         int cNodos = 0;
         int num = 3;
@@ -66,6 +67,7 @@ public class VistaPunto2 {
 
             num += 2;
         }
+        
         int numMayorPrincipal = obtenerNumeroMayorPrincipal(arrayListOfArrayLists);
         JOptionPane.showMessageDialog(null, "El mayor número del ArrayList principal es " + numMayorPrincipal);
         
